@@ -8,7 +8,7 @@ public class BubbleSort {
     public static void bubbleSort(int arr[]) {
         for (int i = 0; i < arr.length; i++) {
             for (int j = i; j < arr.length; j++) {
-                if (arr[j] < arr[i]) {
+                if (arr[j] < arr[i]) {// 每轮对a[i]进行冒泡
                     int temp = arr[j];
                     arr[j] = arr[i];
                     arr[i] = temp;
