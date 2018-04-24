@@ -18,6 +18,7 @@ public class Theme6 {
                 result[k++] = A[i++];
             }
         }
+
         if (j != lenB) {
             while (j < lenB) {
                 result[k++] = B[j++];
