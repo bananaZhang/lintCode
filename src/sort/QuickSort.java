@@ -20,6 +20,7 @@ public class QuickSort {
                 arr[high] = arr[low];
             }
             arr[low] = pivot;
+
             quickSort(arr, 0, low - 1);
             quickSort(arr, low + 1, right);
         }
