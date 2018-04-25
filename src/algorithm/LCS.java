@@ -22,6 +22,7 @@ public class LCS {
                 }
             }
         }
+
         int i = 0, j = 0;
         while (i < strLen1 && j < strLen2){
             if (s1.charAt(i) == s2.charAt(j)){
