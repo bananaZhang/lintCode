@@ -1,12 +1,9 @@
 package lintCode;
 
-import org.w3c.dom.ls.LSException;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Stack;
-import java.util.stream.Collectors;
 
 /**
  * Given a binary search tree and a range [k1, k2], return all elements in the given range.
